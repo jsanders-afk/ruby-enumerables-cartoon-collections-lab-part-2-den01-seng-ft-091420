@@ -24,7 +24,8 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   if planeteer_calls.member? valid_calls
-     
+     puts "yes"
+    
   else 
   nil
   end
