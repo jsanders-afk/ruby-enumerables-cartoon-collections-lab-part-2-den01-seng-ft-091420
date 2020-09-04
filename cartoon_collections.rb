@@ -23,7 +23,10 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.member? valid_calls
+  i = 0
+  while i < planeteer_calls.length do 
+  if planeteer_calls[i].member? valid_calls
+  end
 
   
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
