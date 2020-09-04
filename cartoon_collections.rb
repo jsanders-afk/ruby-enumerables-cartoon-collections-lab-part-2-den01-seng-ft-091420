@@ -26,7 +26,7 @@ def find_valid_calls(planeteer_calls)
   i = 0
   while i < planeteer_calls.length do 
     if valid_calls.member? planeteer_calls[i]
-       true
+       return true
     end
     i += 1 
   end
