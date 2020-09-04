@@ -26,6 +26,8 @@ def find_valid_calls(planeteer_calls)
   if planeteer_calls.member? valid_calls
     put "yes"
   else
+  put "no"
+end
   
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call foun
