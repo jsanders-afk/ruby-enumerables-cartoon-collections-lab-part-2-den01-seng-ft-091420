@@ -26,7 +26,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find { |str| valid_calls.member? str }
   
 end
- binding.pry     
+  
       
       
       
