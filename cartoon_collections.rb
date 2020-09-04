@@ -1,6 +1,6 @@
 require 'pry'
 array = [13,12,5,12,2,41]
-planeteer_calls = ["greet","yes","Wind!", "hello ppl", "lol ummm k"]
+planeteer_calls = ["greet","yes","W!", "hello ppl", "lol ummm k"]
 
 def square_array(array)
   array.map {|num| num**2 }
